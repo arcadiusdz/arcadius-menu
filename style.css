@@ -1,0 +1,136 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(21, 22, 22);
+}
+header{
+    background-color: rgb(156, 10, 34);
+    color: white;
+    text-align: center;
+}
+
+
+
+header nav{
+text-align: center;
+    padding: 5px;
+
+}
+header nav a{
+    text-decoration: none;
+    color: white;
+    margin-right: 25px;
+}
+
+.matiers{
+    background-color: white;
+    border-radius: 10px;
+    margin: 15px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+section .haut{
+    color: white;
+    font-size: 15px;
+    background-color: rgb(4, 31, 52);
+    padding: 10px;
+    
+}
+.logo{
+    text-align: center;
+    margin: 10px;
+    font-size: 45px;
+    color: white;
+    margin-top: 25px;
+}
+.umb{
+    width: 60px;
+}
+
+.es{
+    margin: 15px;
+}
+.lt{
+    margin: 15px;
+}
+.nes{
+    margin: 10px;
+    
+}
+.es button{
+    background-color: rgb(8, 51, 85);
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+}
+.lt button{
+    background-color: rgb(8, 51, 85);
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+}
+.nes button{
+    background-color: rgb(8, 51, 85);
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+}
+.liste{
+    text-align: center;
+}
+.pubs .liste{
+    margin-top: 45px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.pubs .liste .pub{
+background-color: white;
+padding: 20px;
+margin-bottom: 20px;
+margin-right: 15px;
+border-radius: 15px;
+margin-top: 15px;
+}
+.pubs .liste .pub img{
+    height: 110px;
+}
+.pubs .liste .pub button{
+    font-size: 18px;
+    margin-top: 30px;
+    background-color: rgb(156, 10, 34);
+    color: white;
+    padding: 4px;
+    border-radius: 4px;
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+
+button:hover{
+    background-color: rgb(192, 43, 68);
+}
+.pubs .liste .pub button:hover{
+    font-size: 18px;
+    margin-top: 30px;
+    background-color: rgb(192, 43, 68);
+    color: white;
+    padding: 4px;
+    border-radius: 4px;
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+a:hover{
+    color: yellow;
+    
+}
